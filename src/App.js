@@ -1,7 +1,6 @@
-
-import './App.css';
-import Header from './components/Header/Header';
-import CharecterDetails from './components/CharecterDetails/CharecterDetails';
+import "./App.css";
+import Header from "./components/Header/Header";
+import CharecterDetails from "./components/CharecterDetails/CharecterDetails";
 
 function App() {
   return (
@@ -10,6 +9,7 @@ function App() {
       <Header></Header>
       {/* Show the all characters and their budgets */}
       <CharecterDetails></CharecterDetails>
+      <p>This is a paragraph</p>
     </div>
   );
 }
